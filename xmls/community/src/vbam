@@ -1,0 +1,40 @@
+<component type="desktop">
+  <id>gvbam.desktop</id>
+  <name>VisualBoyAdvance-M</name>
+  <summary>Nintendo Game Boy Advance Emulator</summary>
+  <description>
+    <p>VisualBoyAdvance-M ist ein Emulator.</p>
+    <p>Unterstützte Plattformen:</p>
+    <ul>
+      <li>Game Boy</li>
+      <li>Game Boy Color</li>
+      <li>Game Boy Advance</li>
+    </ul>
+    <p>Die Spiele werden als ROM-Ripps benötigt.</p>
+  </description>
+  <pkgname>vbam-gtk</pkgname>
+  <categories>
+    <category>Game</category>
+    <category>Emulator</category>
+  </categories>
+  <keywords>
+    <keyword>emulator</keyword>
+    <keyword>Nintendo</keyword>
+    <keyword>gameboy</keyword>
+    <keyword>Game Boy</keyword>
+    <keyword>Game Boy Color</keyword>
+    <keyword>Game Boy Advance</keyword>
+  </keywords>
+  <icon type="cached" width="64" height="64">vbam.png</icon>
+  <icon type="cached" width="128" height="128">vbam.png</icon>
+  <launchable type="desktop-id">gvbam.desktop</launchable>
+  <mimetypes>
+    <mimetype>application/x-gameboy-rom</mimetype>
+    <mimetype>application/x-gameboy-advance-rom</mimetype>
+    <mimetype>application/x-dmg-rom</mimetype>
+    <mimetype>application/x-agb-rom</mimetype>
+    <mimetype>application/x-gb-rom</mimetype>
+    <mimetype>application/x-gba-rom</mimetype>
+  </mimetypes>
+</component>
+

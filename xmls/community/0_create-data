@@ -1,0 +1,11 @@
+#!/bin/bash
+
+REPO=community.xml
+
+echo "<?xml version="1.0" encoding=\"utf-8\"?>" > ./$REPO
+echo "<components version=\"0.8\" origin=\"archlinux-arch-community\" time=\"030917\">" >> ./$REPO
+echo >> ./$REPO
+cat ./src/* >> ./$REPO
+echo "</components>" >> ./$REPO
+
+gzip ./$REPO

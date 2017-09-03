@@ -1,0 +1,37 @@
+<component type="desktop">
+  <id>blender.desktop</id>
+  <name>Blender</name>
+  <summary>3D-Modellierung, Animation, Rendering und Nachbearbeitung</summary>
+  <project_license>GPL</project_license>
+  <description>
+    <p>Blender ist eine 3D-Grafiksuite mit welcher sich Körper modellieren, texturieren und animieren lassen</p>
+  </description>
+  <pkgname>blender</pkgname>
+  <categories>
+    <category>Graphics</category>
+    <category>3DGraphics</category>
+  </categories>
+  <keywords>
+    <keyword>3d</keyword>
+    <keyword>cg</keyword>
+    <keyword>modeling</keyword>
+    <keyword>animation</keyword>
+    <keyword>painting</keyword>
+    <keyword>sculpting</keyword>
+    <keyword>texturing</keyword>
+    <keyword>video editing</keyword>
+    <keyword>video tracking</keyword>
+    <keyword>rendering</keyword>
+    <keyword>render engine</keyword>
+    <keyword>cycles</keyword>
+    <keyword>game engine</keyword>
+    <keyword>python</keyword>
+  </keywords>
+  <icon type="cached" width="64" height="64">blender.png</icon>
+  <icon type="cached" width="128" height="128">blender.png</icon>
+  <launchable type="desktop-id">blender.desktop</launchable>
+  <mimetypes>
+    <mimetype>application/x-blender</mimetype>
+  </mimetypes>
+</component>
+
